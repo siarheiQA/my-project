@@ -1,3 +1,4 @@
 import App from './App'
+import PizzaList from './PizzaList'
 
-export {App}
+export { App, PizzaList }

@@ -1,3 +1,9 @@
+import { PizzaList } from 'components'
+
 export default function App() {
-  return <p>Init project</p>
-};
+  return (
+    <>
+      <PizzaList />
+    </>
+  )
+}
