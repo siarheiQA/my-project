@@ -15,7 +15,7 @@ import { DoughTypesRu } from 'models/pizza'
 export default function Cart() {
   const count = useStore($cart.map((cart) => cart.length))
   return (
-    <div className="fixed right-10 top-32 mx-1 my-3 pb-8 pt-2 max-w-xs bg-white rounded-2xl shadow-md">
+    <div className="fixed right-10 top-32 mx-10 my-3 pb-8 pt-2 max-w-xs bg-white rounded-2xl shadow-md">
       <div className="flex content-center justify-center">
         <svg
           width="32"

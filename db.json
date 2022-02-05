@@ -87,6 +87,50 @@
         "35": 899,
         "40": 1059
       }
+    },
+    {
+      "id": "1d73b104861349fa90b69e8ecb4a8995",
+      "previewURL": "https://cdn.papajohns.ru//images/catalog/thumbs/full/Super-Cheesburger-traditional.webp",
+      "description": "Суперсытная пицца с Моцареллой, Пармезаном, Фонтиной и смесью копченых итальянских сыров, соусом \"Тысяча островов\", говядиной, беконом, сочными томатами, маринованными огурчиками и луком",
+      "title": "Супер Чизбургер",
+      "prices": {
+        "30": 799,
+        "35": 899,
+        "40": 1059
+      }
+    },
+    {
+      "id": "ce17cc94acd94fe5bbafed83545df9dc",
+      "previewURL": "https://cdn.papajohns.ru//images/catalog/thumbs/full/3469f9fe700d297b0f990102424e22be.webp",
+      "description": "Соус шпинатный, сыр моцарелла, грудка куриная, ветчина, смесь 3-х итальянских сыров",
+      "title": "Сырный Цыпленок Кордон Блю",
+      "prices": {
+        "30": 799,
+        "35": 899,
+        "40": 1059
+      }
+    },
+    {
+      "id": "df72bf8df9b94e63b50d8963dccb7d32",
+      "previewURL": "https://cdn.papajohns.ru//images/catalog/thumbs/full/Ham-and-mushroom-traditional.webp",
+      "description": "Нежная пицца с соусом \"Чесночный Рэнч\", Моцареллой, шампиньонами, ароматной ветчиной и чесноком",
+      "title": "Ветчина и грибы",
+      "prices": {
+        "30": 659,
+        "35": 799,
+        "40": 999
+      }
+    },
+    {
+      "id": "1d9cc877721241779f4f58dff06d1974",
+      "previewURL": "https://cdn.papajohns.ru//images/catalog/thumbs/full/4-cheese-traditional.webp",
+      "description": "Традиционное сочетание сыров: Моцарелла, мягкий молодой сыр, сыр с голубой плесенью, Реджанито, фирменный томатный соус и орегано",
+      "title": "Четыре Сыра",
+      "prices": {
+        "30": 799,
+        "35": 899,
+        "40": 1059
+      }
     }
   ]
 }

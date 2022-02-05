@@ -21,7 +21,7 @@ export default () => {
       <div className={`${TITLE_STYLE} text-2xl text-buccaneer font-bold mb-4`}>
         Pizza App
       </div>
-      <div className="w-fit grid gap-2 place-content-center max-w-max md:grid-cols-2 lg:grid-cols-3">
+      <div className="w-fit grid gap-2 place-content-center ml-60 max-w-max md:grid-cols-2 lg:grid-cols-4">
         <PizzaList />
       </div>
       <Cart />
