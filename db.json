@@ -1,28 +1,92 @@
 {
-    "pizza": [
-      {
-        "id": "uuid-1",
-        "image": "https://cdn.papajohns.ru//images/catalog/thumbs/full/c6cdcdbbdf8589cbdba96ce9c042fe79.webp",
-        "description": "\"The Bee Sting\" пицца с пепперони, цветочным медом, острым халапеньо, сыром Моцарелла и фирменным томатным соусом",
-        "title": "Пепперони с медом и халапеньо"
-      },
-      {
-        "id": "uuid-2",
-        "image": "https://cdn.papajohns.ru//images/catalog/thumbs/full/7df3a3bd82bb148e357958ec7cbf0117.webp",
-        "description": "Ура! Она снова вернулась! Ароматные мандарины, нежная куриная грудка с голубым сыром, моцарелла и смесь итальянских сыров",
-        "title": "Новогодняя с мандаринами "
-      },
-      {
-        "id": "uuid-3",
-        "image": "https://cdn.papajohns.ru//images/catalog/thumbs/full/ca714c7793694fe6d2c59f1b425a4450.webp",
-        "description": "Соус 1000 островов, ароматная ветчина, хрустящий бекон, зеленый перец, шампиньоны, сыр Моцарелла и смесь итальянских трав",
-        "title": "Ветчина и бекон"
-      },
-      {
-        "id": "uuid-4",
-        "image": "https://cdn.papajohns.ru//images/catalog/thumbs/full/1711094649c738772c1859345c1e50b1.webp",
-        "description": "Мясная пицца с пикантной пепперони, альпийскими колбасками, Моцареллой, луком и соусом Барбекю",
-        "title": "Мясное барбекю "
+  "pizzas": [
+    {
+      "id": "vAONatLWhX",
+      "previewURL": "https://cdn.papajohns.ru//images/catalog/thumbs/full/c6cdcdbbdf8589cbdba96ce9c042fe79.webp",
+      "description": "\"The Bee Sting\" пицца с пепперони, цветочным медом, острым халапеньо, сыром Моцарелла и фирменным томатным соусом",
+      "title": "Пепперони с медом и халапеньо",
+      "prices": {
+        "30": 659,
+        "35": 799,
+        "40": 999
       }
-    ]
-  }
+    },
+    {
+      "id": "nvYZIYFrMT",
+      "previewURL": "https://cdn.papajohns.ru//images/catalog/thumbs/full/7df3a3bd82bb148e357958ec7cbf0117.webp",
+      "description": "Ура! Она снова вернулась! Ароматные мандарины, нежная куриная грудка с голубым сыром, моцарелла и смесь итальянских сыров",
+      "title": "Новогодняя с мандаринами ",
+      "prices": {
+        "30": 659,
+        "35": 799,
+        "40": 999
+      }
+    },
+    {
+      "id": "vrvMwtTYKB",
+      "previewURL": "https://cdn.papajohns.ru//images/catalog/thumbs/full/ca714c7793694fe6d2c59f1b425a4450.webp",
+      "description": "Соус 1000 островов, ароматная ветчина, хрустящий бекон, зеленый перец, шампиньоны, сыр Моцарелла и смесь итальянских трав",
+      "title": "Ветчина и бекон",
+      "prices": {
+        "30": 659,
+        "35": 799,
+        "40": 999
+      }
+    },
+    {
+      "id": "ILoloKZgmx",
+      "previewURL": "https://cdn.papajohns.ru//images/catalog/thumbs/full/1711094649c738772c1859345c1e50b1.webp",
+      "description": "Мясная пицца с пикантной пепперони, альпийскими колбасками, Моцареллой, луком и соусом Барбекю",
+      "title": "Мясное барбекю ",
+      "prices": {
+        "30": 659,
+        "35": 799,
+        "40": 999
+      }
+    },
+    {
+      "id": "e5705688ee1948d7a36749774e84df29",
+      "previewURL": "https://cdn.papajohns.ru//images/catalog/thumbs/full/Johns-favorite-traditional.webp",
+      "description": "Любимые ингредиенты: пикантная пепперони, ароматная свинина, Моцарелла, Пармезан, Фонтина, смесь копчёных итальянских сыров и травы. С пикантной остринкой",
+      "title": "Любимая папина пицца",
+      "prices": {
+        "30": 799,
+        "35": 899,
+        "40": 1059
+      }
+    },
+    {
+      "id": "7a2aac3a2bf94567bce370212c5b5030",
+      "previewURL": "https://cdn.papajohns.ru//images/catalog/thumbs/full/0908cf630a2876993f41d3233b4f1b16.webp",
+      "description": "Оригинальная пицца с говядиной, ароматной ветчиной, двойной порцией хрустящего бекона, соусом \"Барбекю\", Моцареллой, мягким молодым сыром, томатами, жгучим перцем \"Халапеньо\"и луком",
+      "title": "Большая Бонанза",
+      "prices": {
+        "30": 799,
+        "35": 899,
+        "40": 1059
+      }
+    },
+    {
+      "id": "be1b9e3bc07740dcb48371ea81bb3fed",
+      "previewURL": "https://cdn.papajohns.ru//images/catalog/thumbs/full/Alfredo-traditional.webp",
+      "description": "Пицца со сливочно-шпинатным соусом, Моцареллой, ветчиной, хрустящим беконом, шампиньонами и сочными томатами",
+      "title": "Альфредо",
+      "prices": {
+        "30": 799,
+        "35": 899,
+        "40": 1059
+      }
+    },
+    {
+      "id": "7737ec27d1614bac9cf0d2aa84d777ab",
+      "previewURL": "https://cdn.papajohns.ru//images/catalog/thumbs/full/Meat-traditional.webp",
+      "description": "Супермясная пицца с пикантной пепперони, ветчиной, хрустящим беконом, ароматной свининой, говядиной, Моцареллой и фирменным томатным соусом",
+      "title": "Мясная",
+      "prices": {
+        "30": 799,
+        "35": 899,
+        "40": 1059
+      }
+    }
+  ]
+}
