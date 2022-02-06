@@ -1,4 +1,4 @@
-Pizza App - web application for online pizza trading.
+# Pizza App - web application for online pizza trading.
 
 [![Demo.png](https://i.postimg.cc/VkRpnTP4/Demo.png)](https://postimg.cc/hXX2q2j7)
 
@@ -13,7 +13,7 @@ Install the dependencies needed to run the application
 ### `yarn db`
 
 Runs JSON server.
-Open [http://localhost:3033]. The data is in the "db.json" file
+Open [http://localhost:3033](http://localhost:3033). The data is in the `db.json` file
 
 ### `yarn start`
 
