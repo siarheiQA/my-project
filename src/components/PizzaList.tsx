@@ -15,6 +15,7 @@ export default function PizzaCards() {
         previewURL={pizzaData.previewURL}
         description={pizzaData.description}
         title={pizzaData.title}
+        prices={pizzaData.prices}
       />
     )
   })
@@ -25,14 +26,25 @@ interface PizzaCardProps {
   previewURL: string
   description: string
   title: string
+  prices: {
+    30: number
+    35: number
+    40: number
+  }
 }
 
-function PizzaCard({ id, previewURL, description, title }: PizzaCardProps) {
+function PizzaCard({
+  id,
+  previewURL,
+  description,
+  title,
+  prices,
+}: PizzaCardProps) {
   const [dough, setDough] = useState<DoughTypes>(DoughTypes.TRADITIONAL)
   const [diameter, setDiameter] = useState<PizzaDiameters>(PizzaDiameters.SMALL)
 
   return (
-    <div className="relative mx-3 my-3 p-2 w-min max-w-sm bg-white rounded-3xl shadow-md">
+    <div className="relative mx-1 my-3 p-2 w-min max-w-sm bg-white rounded-3xl shadow-md">
       <div className="relative rounded-2xl overflow-x-hidden">
         <img
           className="w-full h-40 rounded-2xl object-cover"
@@ -62,6 +74,7 @@ function PizzaCard({ id, previewURL, description, title }: PizzaCardProps) {
       <div className="flex justify-between mb-4 mt-4 pl-2">
         <div className="text-buccaneer font-sans">
           <p className="mb-2 text-lg font-semibold">{title}</p>
+          <p className="mb-2 text-xl font-bold">{prices[diameter]}₽</p>
           <p className="text-md mt-0 text-sm">{description}</p>
         </div>
       </div>
